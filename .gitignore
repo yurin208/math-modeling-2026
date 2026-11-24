@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 工具与系统
+.dsh/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 大文件与中间产物
+*.npy
+*.npz
+*.pkl
+*.h5
+*.zip
+*.7z
+*.rar
+*.mp4
+*.iso
+results/*.log
+results/*.npy
+
+# LaTeX 编译产物
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.xdv
+
+# 敏感信息
+.env
+*.key
+secrets.*

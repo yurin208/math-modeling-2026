@@ -1,0 +1,6 @@
+# 建模常用库。装好后把实际版本号补上（pip freeze > requirements.txt），避免队友环境不一致。
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
